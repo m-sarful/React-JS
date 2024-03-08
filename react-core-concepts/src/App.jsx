@@ -2,15 +2,39 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Todo from './todo'
+import Todo from './Toodo'
+import Actor from './Actor'
+import Singer from './Singer'
 
 function App() {
 
+    const actors = ['Nisho', 'Apurba', 'Hasan', 'Mosharaf', 'Niloy'];
+
+    const singers = [
+      {name: 'Imran', age: 34},
+      {name: 'Milon', age: 32},
+      {name: 'Endro kishore', age: 56},
+      {name: 'Bacchu', age: 57}
+    ]
+
+
+
+
   return (
     <>
-
       <h1>Vite + React</h1>
-      <Todo
+
+      {
+        singers.map(singer=><Singer singer={singer}></Singer>)
+      }
+
+    <Actor name={'Bappa Raj'}></Actor>
+
+{    
+actors.map(actor=><Actor name={actor}></Actor>)
+    }
+
+      {/* <Todo
         task="learn react"
         isDone={true}>
       </Todo>
@@ -18,7 +42,7 @@ function App() {
         task="explore react core concepts"
         isDone={false}>
 
-      </Todo>
+      </Todo> */}
 
 
 
