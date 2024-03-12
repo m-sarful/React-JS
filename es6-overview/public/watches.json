@@ -1,0 +1,82 @@
+[
+    {
+      "id": 1,
+      "brand": "Apple",
+      "model": "Apple Watch Series 7",
+      "price": 399,
+      "color": "Space Gray",
+      "features": ["Always-On Retina display", "Blood oxygen sensor", "ECG app"],
+      "image": "https://example.com/apple_watch_series_7.jpg"
+    },
+    {
+      "id": 2,
+      "brand": "Samsung",
+      "model": "Galaxy Watch 4",
+      "price": 249,
+      "color": "Phantom Black",
+      "features": ["Advanced health monitoring", "Built-in GPS", "Military-grade durability"],
+      "image": "https://example.com/galaxy_watch_4.jpg"
+    },
+    {
+      "id": 3,
+      "brand": "Fitbit",
+      "model": "Fitbit Sense",
+      "price": 299,
+      "color": "Carbon/Graphite",
+      "features": ["EDA sensor", "Built-in GPS", "6+ day battery life"],
+      "image": "https://example.com/fitbit_sense.jpg"
+    },
+    {
+      "id": 4,
+      "brand": "Garmin",
+      "model": "Samsung Forerunner 945",
+      "price": 599,
+      "color": "Black",
+      "features": ["Running dynamics", "Advanced training features", "Music storage"],
+      "image": "https://example.com/garmin_forerunner_945.jpg"
+    },
+    {
+      "id": 5,
+      "brand": "Huawei",
+      "model": "Huawei Watch GT 3",
+      "price": 329,
+      "color": "Elegant Black",
+      "features": ["AMOLED display", "2-week battery life", "TruSeen 5.0 heart rate monitoring"],
+      "image": "https://example.com/huawei_watch_gt_3.jpg"
+    },
+    {
+      "id": 6,
+      "brand": "Xiaomi",
+      "model": "Xiaomi Mi Watch",
+      "price": 199,
+      "color": "Silver",
+      "features": ["AMOLED display", "Built-in GPS", "Water-resistant up to 50m"],
+      "image": "https://example.com/xiaomi_mi_watch.jpg"
+    },
+    {
+      "id": 7,
+      "brand": "TicWatch",
+      "model": "TicWatch Pro 3",
+      "price": 299,
+      "color": "Shadow Black",
+      "features": ["Dual-layer display", "Health and fitness tracking", "Up to 72 hours battery life"],
+      "image": "https://example.com/ticwatch_pro_3.jpg"
+    },
+    {
+      "id": 8,
+      "brand": "Fossil",
+      "model": "Fossil Gen 5",
+      "price": 249,
+      "color": "Smoke",
+      "features": ["Wear OS by Google", "Heart rate tracking", "Customizable dials"],
+      "image": "https://example.com/fossil_gen_5.jpg"
+    },
+    {
+      "id": 9,
+      "brand": "Amazfit",
+      "model": "Amazfit GTR 3",
+      "price": 179,
+      "color": "Obsidian Black",
+      "features": ["Circular AMOLED display", "BioTracker 3.0 PPG", "Water-resistant up to 50m"]
+    }  
+]
